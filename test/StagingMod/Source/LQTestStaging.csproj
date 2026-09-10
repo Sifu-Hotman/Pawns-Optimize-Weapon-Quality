@@ -26,8 +26,8 @@
             <HintPath>$(RimWorldWorkshopDir)/2890901044/Assemblies/CombatExtended.dll</HintPath>
             <Private>false</Private>
         </Reference>
-        <Reference Include="LoadoutQuality">
-            <HintPath>../../../Assemblies/LoadoutQuality.dll</HintPath>
+        <Reference Include="PawnsOptimizeWeaponQuality">
+            <HintPath>../../../Assemblies/PawnsOptimizeWeaponQuality.dll</HintPath>
             <Private>false</Private>
         </Reference>
         <Publicize Include="CombatExtended" />
