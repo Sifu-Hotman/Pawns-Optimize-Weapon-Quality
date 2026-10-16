@@ -81,7 +81,7 @@ namespace PawnsOptimizeWeaponQuality
     [StaticConstructorOnStartup]
     public static class Bootstrap
     {
-        public const string HarmonyId = "eebette.PawnsOptimizeWeaponQuality";
+        public const string HarmonyId = "SifuHotman.PawnsOptimizeWeaponQuality";
 
         static Bootstrap()
         {

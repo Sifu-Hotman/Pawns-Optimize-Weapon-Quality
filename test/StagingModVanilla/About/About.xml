@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>LQ Vanilla Test Staging (dev only)</name>
-    <author>eebette</author>
-    <packageId>eebette.lqteststaging.vanilla</packageId>
+    <author>Sifu-Hotman</author>
+    <packageId>SifuHotman.lqteststaging.vanilla</packageId>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>

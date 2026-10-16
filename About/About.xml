@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>Pawns Optimize Weapon Quality</name>
-    <author>eebette</author>
-    <packageId>eebette.PawnsOptimizeWeaponQuality</packageId>
+    <author>Sifu-Hotman</author>
+    <packageId>SifuHotman.PawnsOptimizeWeaponQuality</packageId>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <description>[img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_POWQ.png[/img]
+    <description>[img]https://raw.githubusercontent.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_POWQ.png[/img]
 
 RimWorld mod that changes pawn behavior to automatically swap weapons to a higher-quality version when available. Idle pawns periodically scan the map for higher-quality (or higher-hit-point) copies of the weapons they hold, and fetch one when it is available.
 
@@ -28,16 +28,16 @@ Harmony, then this mod. Load after Combat Extended if you use it.
 [b]The Combat Extended + Simple Sidearms suite[/b] - mods that make Combat Extended and Simple Sidearms run smoothly together.
 [table]
 [tr][th]Mod[/th][th]What it does[/th][/tr]
-[tr][td][url=https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Patch.png[/img][/url][/td][td]Core compatibility patch for Combat Extended and Simple Sidearms.[/td][/tr]
-[tr][td][url=https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Loadouts][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Loadouts.png[/img][/url][/td][td]Synchronizes CE Loadouts with SS memory/gizmo.[/td][/tr]
-[tr][td][url=https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Tactics][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Tactics.png[/img][/url][/td][td]Sensible tweaks to nonsense pawn behavior when CE + SS run together.[/td][/tr]
+[tr][td][url=https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch][img]https://raw.githubusercontent.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Patch.png[/img][/url][/td][td]Core compatibility patch for Combat Extended and Simple Sidearms.[/td][/tr]
+[tr][td][url=https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Loadouts][img]https://raw.githubusercontent.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Loadouts.png[/img][/url][/td][td]Synchronizes CE Loadouts with SS memory/gizmo.[/td][/tr]
+[tr][td][url=https://github.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Tactics][img]https://raw.githubusercontent.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Tactics.png[/img][/url][/td][td]Sensible tweaks to nonsense pawn behavior when CE + SS run together.[/td][/tr]
 [/table]
 
 [b]Standalone[/b] - none of these need the patch, or each other.
 [table]
 [tr][th]Mod[/th][th]What it does[/th][/tr]
-[tr][td][url=https://github.com/eebette/Better-Attack-Orders-for-Simple-Sidearms][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_BAO.png[/img][/url][/td][td]Adds sidearm attack orders to the right-click target menu.[/td][/tr]
-[tr][td][url=https://github.com/eebette/Universal-Patch-for-More-Materials][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_UPMM.png[/img][/url][/td][td]Adds materials from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055040889]More Materials[/url] to non-vanilla recipes.[/td][/tr]
+[tr][td][url=https://github.com/Sifu-Hotman/Better-Attack-Orders-for-Simple-Sidearms][img]https://raw.githubusercontent.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_BAO.png[/img][/url][/td][td]Adds sidearm attack orders to the right-click target menu.[/td][/tr]
+[tr][td][url=https://github.com/Sifu-Hotman/Universal-Patch-for-More-Materials][img]https://raw.githubusercontent.com/Sifu-Hotman/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_UPMM.png[/img][/url][/td][td]Adds materials from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3055040889]More Materials[/url] to non-vanilla recipes.[/td][/tr]
 [/table]
 
 [h1]FAQ[/h1]
