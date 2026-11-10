@@ -16,6 +16,10 @@ suite; the "works with CE" claim):
 ./test/run-lq-assert.sh lq5 LQ-5-meleeprime
 ```
 
+Environment overrides for every `test/run-*.sh`: `RIMWORLD=/path/to/game-binary` runs against another
+game build, for example a 1.7 depot copy, and `SAVEDATA=/path/to/profile` uses another isolated profile
+directory. Defaults are the Steam install and the repo's `test/SaveData`.
+
 Results: `test/SaveData/test-results-lq*.json`. Green (12/12 checks) recorded
 2026-09-03:
 
