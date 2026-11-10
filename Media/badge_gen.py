@@ -134,39 +134,6 @@ def render_badge(rifle):
     print("wrote Badge_POWQ.png")
 
 
-def render_preview(rifle):
-    P = 4
-    W = H = 512 * P
-    img = Image.new("RGBA", (W, H), (12, 12, 12, 255))
-    d = ImageDraw.Draw(img)
-    cx, cy, r = 256 * P, 190 * P, 140 * P
-    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=BLACK, outline=GOLD, width=8 * P)
-
-    def paste_glyph(m, gx, gy, target_w):
-        sc = target_w / m.width
-        g = m.resize((int(m.width * sc), int(m.height * sc)), Image.LANCZOS)
-        img.paste(WHITE, (int(gx - g.width / 2), int(gy - g.height / 2)), g)
-
-    paste_glyph(rifle, cx, (190 + 25) * P, 176 * P)
-    star(d, cx, (190 - 75) * P, 40 * P, GOLD)
-
-    def fitp(texts, max_size, max_w):
-        s = int(max_size)
-        while s > 10 and max(d.textlength(t, font=ImageFont.truetype(FONT, s)) for t in texts) > max_w:
-            s -= 1
-        return ImageFont.truetype(FONT, s)
-    prow1, prow2 = "PAWNS OPTIMIZE", "WEAPON QUALITY"
-    ftitle = fitp([prow1, prow2], 42 * P, 470 * P)
-    plh = sum(ftitle.getmetrics())
-    ytop = 367 * P
-    ptarget = max(d.textlength(prow1, font=ftitle), d.textlength(prow2, font=ftitle))
-    draw_row(d, prow1, ftitle, W / 2, ytop, ptarget, WHITE)
-    draw_row(d, prow2, ftitle, W / 2, ytop + plh, ptarget, GOLD)
-    img.resize((512, 512), Image.LANCZOS).save(os.path.join(HERE, "..", "About", "Preview.png"))
-    print("wrote About/Preview.png")
-
-
 if __name__ == "__main__":
     rifle = extract_rifle()
     render_badge(rifle)
-    render_preview(rifle)
