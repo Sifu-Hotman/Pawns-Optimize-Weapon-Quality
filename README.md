@@ -114,6 +114,6 @@ Details and recorded passes: [`TESTPLAN.md`](TESTPLAN.md).
 
 [MIT](LICENSE) - code, build files, and docs.
 
-The badge artwork is not: `About/Preview.png` and the `Media/Badge_*.png` set remix the rifle glyph from Combat
-Extended's own compatibility badge, so they stay under CE's CC BY-NC-SA 4.0 (attribution, non-commercial, share-alike).
-Details in [NOTICE](NOTICE).
+The badge artwork is not: the `Media/Badge_*.png` set remixes the rifle glyph from Combat Extended's own
+compatibility badge, so it stays under CE's CC BY-NC-SA 4.0 (attribution, non-commercial, share-alike).
+`About/Preview.png` is a RimWorld screenshot. Details in [NOTICE](NOTICE).
