@@ -1,0 +1,48 @@
+Third-party material in this repository
+=======================================
+
+The MIT license in LICENSE covers this project's own source code, build files,
+and documentation. It does NOT cover the artwork listed below, which is derived
+from Combat Extended's media and is redistributed here under Combat Extended's
+own license.
+
+Combat Extended badge artwork
+-----------------------------
+
+    Media/Badge_CE_compatible.png
+    Media/Badge_CE_compatible.svg
+
+Copyright the Combat Extended team. Licensed CC BY-NC-SA 4.0
+(https://creativecommons.org/licenses/by-nc-sa/4.0/). Included unmodified, as
+Combat Extended invites compatible mods to display it.
+
+Artwork derived from the Combat Extended badge
+----------------------------------------------
+
+    Media/Badge_POWQ.png
+    Media/Badge_Suite.png
+    Media/Badge_Patch.png
+    Media/Badge_Loadouts.png
+    Media/Badge_Tactics.png
+    Media/badge_gen.py   (only insofar as it embeds and re-renders that artwork)
+
+These composites remix the rifle glyph from Badge_CE_compatible.png. As
+derivative works of CC BY-NC-SA 4.0 material they carry the same terms:
+attribution to the Combat Extended team, non-commercial use only, and
+share-alike. They are NOT offered under this project's MIT license.
+
+Not derived from Combat Extended
+--------------------------------
+
+    Media/Badge_BAO.png
+
+Same geometry as the badges above, but its emblem is drawn from scratch. MIT,
+with the rest of this project's own work.
+
+    About/Preview.png
+
+A RimWorld gameplay screenshot with this mod's title stamped on it. RimWorld's
+artwork belongs to Ludeon Studios.
+
+No Combat Extended or Simple Sidearms code or assemblies are vendored in this
+repository; both are reached by reflection at runtime (see RELEASING.md).
