@@ -11,6 +11,8 @@ RimWorld mod that changes pawn behavior to automatically swap weapons to a highe
 Pawns will now periodically scan the map for higher quality (or higher hit point) versions of their held guns, and fetch
 them when one is available.
 
+![A pawn walks to a higher-quality rifle, swaps, and drops the old one](Media/Demo.webp)
+
 ## Load order
 
 > Harmony → this mod.
