@@ -1,7 +1,7 @@
 # Pawns Optimize Weapon Quality
 
 [![Latest Release](https://img.shields.io/github/v/release/Sifu-Hotman/Pawns-Optimize-Weapon-Quality?label=Latest%20Release)](https://github.com/Sifu-Hotman/Pawns-Optimize-Weapon-Quality/releases)
-<!-- Steam Workshop badge goes here at publish -->
+[![Steam Workshop](https://img.shields.io/steam/subscriptions/3837156241?label=Steam%20Workshop&logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3837156241)
 
 ![Pawns Optimize Weapon Quality](Media/Badge_POWQ.png)
 [![Combat Extended Compatible](Media/Badge_CE_compatible.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044)
