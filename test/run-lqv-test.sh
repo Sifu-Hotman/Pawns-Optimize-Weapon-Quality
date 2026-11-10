@@ -3,11 +3,11 @@
 # Arranges + asserts in one run; writes test/SaveDataVanilla/test-results-lqv.json.
 set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
-RIMWORLD="$HOME/.local/share/Steam/steamapps/common/RimWorld/RimWorldLinux"
+RIMWORLD="${RIMWORLD:-$HOME/.local/share/Steam/steamapps/common/RimWorld/RimWorldLinux}"
 # GS_WRAP: launch inside gamescope's nested compositor - immune to the desktop's
 # display state (owner gaming via Proton, mode-list churn, XF86VidMode crashes).
 GS=(gamescope -W 1600 -H 900 --)
-SAVEDATA="$REPO/test/SaveDataVanilla"
+SAVEDATA="${SAVEDATA:-$REPO/test/SaveDataVanilla}"
 mkdir -p "$SAVEDATA/Config"
 # Overwrite each run: this profile is the whole point, and there are no saves to preserve.
 cp "$REPO/test/Config/ModsConfig.vanilla.xml" "$SAVEDATA/Config/ModsConfig.xml"
